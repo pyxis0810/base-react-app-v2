@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8c9ca2-3c63-4707-be09-af6cac6435b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -53,12 +52,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="polyfills.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/polyfills.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#57#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <marker date="1492423724000" expanded="true" signature="92:145" ph="{&quot;antd&quot;: &quot;^2.9.1&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="1552:1895" ph="{&quot;autoprefixer&quot;: &quot;6.7.2&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="1910:2038" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="2050:2744" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="2079:2112" ph="[...]" />
+                <marker date="1492423724000" expanded="true" signature="2132:2177" ph="[...]" />
+                <marker date="1492423724000" expanded="true" signature="2209:2281" ph="[...]" />
+                <marker date="1492423724000" expanded="true" signature="2366:2575" ph="{&quot;^.+\.(js|jsx)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="2608:2664" ph="[...]" />
+                <marker date="1492423724000" expanded="true" signature="2690:2740" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+                <marker date="1492423724000" expanded="true" signature="2757:2803" ph="{...}" />
+                <marker date="1492423724000" expanded="true" signature="2774:2799" ph="[...]" />
+                <marker date="1492423724000" expanded="true" signature="2823:2855" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +114,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -266,12 +302,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492422257198</updated>
-      <workItem from="1492422258435" duration="462000" />
+      <workItem from="1492422258435" duration="1661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462000" />
+    <option name="totallyTimeSpent" value="1661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1426" height="1413" extended-state="0" />
@@ -331,8 +367,22 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1492423724000" expanded="true" signature="92:145" ph="{&quot;antd&quot;: &quot;^2.9.1&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="1552:1895" ph="{&quot;autoprefixer&quot;: &quot;6.7.2&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="1910:2038" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="2050:2744" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="2079:2112" ph="[...]" />
+            <marker date="1492423724000" expanded="true" signature="2132:2177" ph="[...]" />
+            <marker date="1492423724000" expanded="true" signature="2209:2281" ph="[...]" />
+            <marker date="1492423724000" expanded="true" signature="2366:2575" ph="{&quot;^.+\.(js|jsx)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="2608:2664" ph="[...]" />
+            <marker date="1492423724000" expanded="true" signature="2690:2740" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1492423724000" expanded="true" signature="2757:2803" ph="{...}" />
+            <marker date="1492423724000" expanded="true" signature="2774:2799" ph="[...]" />
+            <marker date="1492423724000" expanded="true" signature="2823:2855" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,6 +399,24 @@
         <state relative-caret-position="286">
           <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/polyfills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
